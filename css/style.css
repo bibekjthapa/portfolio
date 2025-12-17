@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #00bfff;
+}
+
+section {
+    width: 80%;
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-top: 0;
+    border-left: 5px solid #00bfff;
+    padding-left: 10px;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#projects img {
+    width: 45%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#contact label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#contact input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
